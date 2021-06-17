@@ -1,6 +1,11 @@
 @import 'config';
 @import 'home';
 @import 'menu';
+@import 'about';
+@import 'projects';
+@import 'contact';
+@import 'responsive';
+
 body {
     background: $primary-color;
     color: set-text-color($primary-color);
@@ -39,6 +44,11 @@ a {
         color: $secondary-color;
     }
 }
+
+.text-secondary {
+    color: $secondary-color;
+}
+
 footer {
     font-size: 1rem;
     position: fixed;

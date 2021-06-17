@@ -10,7 +10,7 @@
         rgba($primary-color, 0.9), 
         rgba($primary-color, 0.3)
     ),
-    url('../img/6.jpg') center top;
+    url('../img/image1.jfif') center top;
     background-size: cover;
     &__text {
         margin-top: -5.5rem;
@@ -30,14 +30,14 @@
         }
     }
 }
-$breakpoint-tablet: 768px;
-@media (min-width: $breakpoint-tablet) {
-    .home {
-        background: linear-gradient(to right,
-            rgba($primary-color, .7),
-            rgba($primary-color, .1)),
-            url('../img/6.jpg') center bottom;
-        background-size: 100% 150%;
-        background-repeat: no-repeat;
-    }
-}
+// $breakpoint-tablet: 768px;
+// @media (min-width: $breakpoint-tablet) {
+//     .home {
+//         background: linear-gradient(to right,
+//             rgba($primary-color, .7),
+//             rgba($primary-color, .1)),
+//             url('../img/image1.jfif') center bottom;
+//         background-size: 100% 150%;
+//         background-repeat: no-repeat;
+//     }
+// }
